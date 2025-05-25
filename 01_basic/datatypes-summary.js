@@ -32,3 +32,33 @@ const myFunction = function(){
 
 
 console.log(typeof bigNumber);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myInstaname = "dk.divyanshukumar"
+
+let anothername = myInstaname
+anothername = "Divyanshu kumar"
+console.log(anothername);
+console.log(myInstaname); 
+
+let userOne = {
+    email: "divyanshu@gmail.com",
+    password: "09342"
+    
+}
+
+let userTwo = userOne
+userTwo.email = "komal@gmail.com",
+password = "3421"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
+
